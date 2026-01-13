@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eternyx Island</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1c2d;
+      color: white;
+    }
+    header {
+      background: url('hero.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 4em;
+    }
+    section {
+      padding: 60px 10%;
+    }
+    .gallery img {
+      width: 30%;
+      margin: 1%;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Eternyx Island</h1>
+    <p>Where Magic Lives in Every Season</p>
+  </div>
+</header>
+
+<section>
+  <h2>About Eternyx Island</h2>
+  <p>
+    Eternyx Island is a magical destination near Japan, where nature, culture,
+    and futuristic fantasy live in harmony.
+  </p>
+</section>
+
+<section>
+  <h2>Top Attractions</h2>
+  <ul>
+    <li>LuminaWave Waterparks</li>
+    <li>Flying Islands Adventure</li>
+    <li>LuminaWave Celebration</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Culture & Daily Life</h2>
+  <p>
+    The island blends Japanese-inspired traditions with magical design,
+    flowing garments, and crystal homes.
+  </p>
+</section>
+
+<section class="gallery">
+  <h2>Gallery</h2>
+  <img src="image1.jpg">
+  <img src="image2.jpg">
+  <img src="image3.jpg">
+</section>
+
+<section>
+  <h2>The Flag of Eternyx Island</h2>
+  <p>
+    The flag represents eternity, harmony, and unity across all seasons.
+  </p>
+</section>
+
+</body>
+</html>
